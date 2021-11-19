@@ -1,0 +1,38 @@
+
+
+
+body
+{
+background-color:lightcyan;
+}
+
+
+
+
+h1
+{
+color:blue;
+text-align:center;
+font-size:50px;
+font-family:verdhana, italic;
+margin-right:25px;
+margin-left:25px;
+border-style:dotted;
+border-(sub-property):(top)(bottom)(left)(right);
+border-color: green yellow brown red;
+}
+li 
+{
+	color:green;
+	font-size:24px;
+}
+dd
+{
+	font-size:24px;
+	color:grey;
+}
+Th
+{
+	font-size:34px;
+	color:green;
+}
