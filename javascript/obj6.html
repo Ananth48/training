@@ -1,0 +1,22 @@
+
+<script>
+function emp(id,name,dob,mobilenumber,address,course)
+{
+this.id=id;
+this.name=name;
+this.dob=dob;
+this.mobilenumber=mobilenumber;
+this.address=address;
+this.course=course;
+this.changeaddress=changeaddress;
+function changeaddress(otheraddress)
+{
+this.address=otheraddress;
+}
+}
+e=new emp(21253,"Ananth kumar","24-10-1999",9182853837,"anantapur","b.tech");
+document.write(e.id+"<Br>"+" "+e.name+" "+"<BR>"+e.dob+" "+"<BR>"+e.mobilenumber+" "+"<BR>"+" "+e.address+" "+" <BR>"+e.course);
+e.changeaddress("hyderabad");
+document.write("<br>"+e.id+"<Br>"+" "+e.name+" "+"<BR>"+e.dob+" "+"<BR>"+e.mobilenumber+" "+"<BR>"+" "+e.address+" "+" <BR>"+e.course);
+</script>
+
