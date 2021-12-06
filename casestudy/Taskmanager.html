@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+h1 {text-align: center;}
+Body {
+  text-align: center;
+  font-family: verdana , sans-serif;
+  background-color =cyan;
+  }
+  </style>
+</head>
+<body>
+  <h1>Task manager</h1>
+<form id="frm1">
+        <div class="container"> 
+          <div class="split left">
+  
+            <label>Activity ID: </label> 
+            <input type="text" placeholder="Enter Activity ID" name="activity ID" required>
+            <br>
+            <br>
+            <label>Activity Name : </label> 
+
+            <input type="text" placeholder="Enter Activity Name" name="Activity name" required>
+             <br>
+            <br>
+            <label>Activity Owner : </label> 
+<select name="owners">
+  <option value="default">Owner Name</option>
+  <option value="Ananth">Ananth</option>
+  <option value="Harsha">Harsha</option>
+  <option value="Shanmukha">shanmukha</option>
+  <option value="Charan">Charan</option>
+</select>
+             <br>
+            <br>
+            <label>Description of the Activity : </label> 
+             <br>
+            <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="Enter Activity Name" name="Description of activity"></textarea>
+            <br>
+            <br>
+              <label>Priority :</label> 
+              <select name="owners">
+  <option value="default">Select Priotity</option>
+  <option value="Tim" type="color">Low</option>
+  <option value="John">Urgent</option>
+  <option value="Ramesh">Highly Important</option>
+            </select>
+            <br>
+            <br>
+          </div>
+<div class="split right">
+ 
+            <label>Activity Start Date: </label> 
+
+            <input type="date" placeholder="Enter Activity Name" name="Activity name" required>
+
+            <label>   Activity End Date: </label> 
+            <input type="date" placeholder="Enter Activity Name" name="Activity name" required>
+             <br>
+            <br>
+<label>Activity status : </label> 
+
+  <select name="status">
+  <option value="default">Select Progress</option>
+  <option value="Ananth" type="color">Yet to start</option>
+  <option value="Harsha">In Progress</option>
+  <option value="Charan">Completed</option>
+ </select>
+<br>
+<br>
+<label>Assign to : </label> 
+
+  <select name="status">
+  <option value="default">Select from the team</option>
+  <option value="Ananth" type="color">Ananth</option>
+  <option value="Harsha">Harsha</option>
+  <option value="charan">Charan</option>
+ </select>
+ <br>
+<br>
+<label>Last Modified on:  </label> 
+
+            <input type="date" placeholder="Enter Activity Name" name="Activity name" required>
+            <br>
+            <br>
+             <div align="centered"> 
+            <input type="button" onclick="myFunction()" value="submit" id="login-button" />
+            <input type="radio" name="rad" checked="checked"> Update 
+            <input type="radio" name="rad" >New 
+            <br>
+            <br>
+            <input type="reset" value="Cancel" id="rst-button" /> 
+           </div> 
+        </div>
+
+
+ <br>
+<br>
+         
+    </div>
+  
+
+    </form> 
+  </div>
+
+
+</body>
+</html>
